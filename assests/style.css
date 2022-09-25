@@ -103,7 +103,7 @@ header .me p {
 
 .about-me {
     box-sizing: border-box;
-
+    font-size: 30px;
     margin: 20px;
     padding: 20px;
     border: 10px;
@@ -114,17 +114,71 @@ header .me p {
 
 .intro-header {
     font-size: 40px;
-    outline: 2px solid;
+    outline: 5px solid;
     transition: all 0.5s ease-in-out;
 }
 
 .projects {
-    padding: 50px;
-    height: 500px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    display: column;
+    padding: 75px;
+}
+
+.projects-header {
+    font-size: 40px;
+    color: var(--sangria);
+    
+}
+
+.first-challenge a {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.projects-header {
+   
+}
+
+.horizon {
+    height: 25%;
+    width: 25%;
+    margin-bottom: 25px;
+    background-size:contain;
+    background-position: center;
 }
 
 
 
+.contact {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: var(--outer-space);
+    
+}
+
+.contact .contact-header {
+    font-size: 40px;
+    color: var(--sangria);
+    border: #33393f;
+    border-style: ridge;
+    outline: 5px thick var(--outer-space);
+    transition: all 0.5s ease-in-out;
+}
+
+.names {
+    display: inline-block;
+    
+}
+
+.names div {
+    color: var(--royalblue);
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
