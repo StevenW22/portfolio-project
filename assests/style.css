@@ -1,4 +1,130 @@
 :root {
-    background-color: ghostwhite;
+--navyblue: #000F6E;
+--lightgray: lightgray;
+--royalblue: #3955E2;
+--sangria: #930409;   
+--outer-space: #33393f;
+}
+
+.html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-title {
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+
+.header-title h1 nav ul li {
+    display: inline-block;
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
     
 }
+
+
+body header section {
+    
+}
+
+
+.intro {
+    position: relative;
+    top: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 0;
+}
+
+
+nav {
+text-align: right;
+margin-bottom: 0px;
+font-size: 30px;
+}
+
+nav ul {
+    position: relative;
+    bottom: 25px;
+    list-style-type: none;
+    
+}
+
+a {
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+.avatar {
+   margin-top: 0%;
+   border-radius: 20%;
+   padding: 0%;
+   margin-bottom: 0px;
+   padding:0px;
+   height: 400px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: ghostwhite;
+
+}
+
+.me {
+    display: inline-flex;
+    position: relative;
+    top: 5px;
+    padding: 15px;
+    background-image: url(./images/milky-way-2695569__340.jpg);
+    height: 400px;
+    font: var(--white);
+    
+    
+}
+
+header .me p {
+    font-size: 50px;
+    font-display: white;
+}
+
+.about-me {
+    box-sizing: border-box;
+
+    margin: 20px;
+    padding: 20px;
+    border: 10px;
+    border-color: black;
+    text-align: center;
+    display: flex;
+}
+
+.intro-header {
+    font-size: 40px;
+    outline: 2px solid;
+    transition: all 0.5s ease-in-out;
+}
+
+.projects {
+    padding: 50px;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+
