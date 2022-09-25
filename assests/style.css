@@ -175,6 +175,7 @@ header .me p {
 
 .names div {
     color: var(--royalblue);
+    font-size: 25px;
 }
 
 .footer {

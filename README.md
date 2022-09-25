@@ -1,22 +1,19 @@
-.options {
-    font-size: 45px;
-    text-align: center;
-    padding-top: 15px;
-}
+# <Bootcamp-Portfolio-1.0>
 
-.nav {
-    font-size: 25px;
-    position: relative;
-    border: 10px black;
-    background-color: var(--lightgray);
-    padding-top: 5px;
-    margin-bottom: 40px;
-    text-align:center;
-    display:inline;
-}
+## Description
 
-.header nav ul {
-    list-style-type: none;
-}
+- This project was for the class to create a portfolio webpage from the ground up.
+- While attempting this project we had to use everything we have learned about HTML & CSS.
+- This project was extemely challenging yet rewarding. I was able to figure out fixes for issues and discovered new things.
+- Breaking and fixing your own project was humbling and exciting. 
 
-  <link rel="stylesheet" href="./assests/reset.css">
+## Usage
+
+The purpose of the project was to start from scratch and figure out of to create a webpage.
+
+## Mock-UP
+
+![Challenge 2](https://user-images.githubusercontent.com/112358173/192162297-997dc629-025c-4f3f-9cea-75edeb111a96.png)
+
+##
+https://stevenw22.github.io/portfolio-project/
